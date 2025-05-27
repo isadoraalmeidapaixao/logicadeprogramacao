@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num, quadrado
+		inteiro num
 
 		num = 15
 		
