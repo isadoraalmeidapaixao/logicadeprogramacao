@@ -9,7 +9,7 @@ programa
 	     enquanto (num >= 0) {
 
 	     	escreva(num, "\n")
-		     num = num - 1	
+		     num-- 	
 	}
    }
 }
