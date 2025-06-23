@@ -6,11 +6,9 @@ programa
 		inteiro num
 		num = 1
 
-	     faca {
+	     enquanto (num <= 10) {
 		     escreva(num, "\n")
 		     num = num + 1
-		}
-	     enquanto (num <= 10)
 		
 	}
 }
