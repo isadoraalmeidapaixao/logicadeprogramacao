@@ -5,10 +5,11 @@ programa
 	{
 		inteiro num
 		num = 1
-
-	     enquanto (num <= 10) {
+         faca {
 		     escreva(num, "\n")
-		     num = num + 1
+		     num++
+	}
+	     enquanto (num <= 10)
 		
 	}
 }
