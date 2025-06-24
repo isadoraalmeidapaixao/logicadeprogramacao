@@ -17,8 +17,8 @@ programa
 			}
 			}
 			
-			escreva("O menor valor digitado é " ,menor)
-			escreva("O maior valor digitado é " ,maior)
+			escreva("\n O menor valor digitado é " ,menor)
+			escreva("\n O maior valor digitado é " ,maior)
 		}
 }
 /* $$$ Portugol Studio $$$ 
