@@ -1,0 +1,64 @@
+
+Console.WriteLine("Digite o nome do aluno:");
+string nome = Console.ReadLine();
+
+Console.WriteLine("Digite a primeira nota:");
+double nota1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Digite a segunda nota:");
+double nota2 = Convert.ToDouble(Console.ReadLine());
+
+double media = (nota1 + nota2) / 2;
+
+Console.WriteLine($"Aluno: {nome}. Sua média é: {media}");
+
+if (media >= 7)
+{
+    Console.WriteLine("Status de aluno: APROVADO!");
+}
+else if (media >= 5)
+{
+    Console.WriteLine("Status de aluno: RECUPERAÇÃO!");
+}
+else
+{
+    Console.WriteLine("Status de aluno: REPROVADO!");
+}
+
+int convertido = (int)Math.Floor(media);
+//Convertendo a média de número quebrado para número inteiro e armazenando na variável "convertivo".
+
+switch (convertido)
+{
+    case 10:
+        Console.WriteLine("Classificação de média: A");
+        break;
+    case 9:
+        Console.WriteLine("Classificação de média: A");
+        break;
+    case 8:
+        Console.WriteLine("Classificação de média: B");
+        break;
+    case 7:
+        Console.WriteLine("Classificação de média: C");
+        break;
+    case 6:
+        Console.WriteLine("Classificação de média: D");
+        break;
+    case 5:
+        Console.WriteLine("Classificação de média: D");
+        break;
+    case 4:
+        Console.WriteLine("Classificação de média: F");
+        break;
+    case 3:
+        Console.WriteLine("Classificação de média: F");
+        break;
+    case 2:
+        Console.WriteLine("Classificação de média: F");
+        break;
+    case 1:
+        Console.WriteLine("Classificação de média: F");
+        break;
+}
+
