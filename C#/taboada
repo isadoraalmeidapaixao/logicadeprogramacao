@@ -1,0 +1,8 @@
+int cont;
+Console.WriteLine("Digite um número");
+int num = Convert.ToInt32(Console.ReadLine());
+
+for (cont = 1; cont <= 10; cont++);
+{
+    Console.WriteLine($"{num} * {cont} = {num * cont}");
+}
